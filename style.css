@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 32vh auto;
+    text-align: center;
+    max-width: 40vw;
+}
+
+.container h3{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.container h5{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.card{
+    background-color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.card img{
+    width: 150px;
+}
+.img-card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.img-card img{
+    background-position: center;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+
+.reviev{
+    padding-bottom: 1rem;
+}
+
+.star{
+    color: maroon;
+    font-size: .8rem;
+
+
+}
+
+
+.prevBtn, .nxtBtn{
+    color: purple;
+    font-size: 1.8rem;
+    width: 45px;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
+    line-height: 45px;
+    text-align: center;
+    transition: all 0.3s ease;
+
+}
